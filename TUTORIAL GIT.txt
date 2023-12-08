@@ -9,6 +9,7 @@ ssh-keygen -t ed25519 -C "meu_email@example.com" -- No terminal, criar uma chave
 -- e adicionar a nova chave lá colocando um título.
 
 git remote add origin git@github.com:RenatoNato/numero-secreto.git -- Cria um vinculo entre o repositório local e remoto.
+
 git push -u origin main --  Este comando é utilizado para enviar as alterações locais para um repositório remoto,
 -- No nosso caso é usado para enviar alterações do ramo local chamado main, para o repositório remoto associado ao alias(apelido) origin.
 
