@@ -1,0 +1,11 @@
+git init -- Iniciar um repositório existente ou cria um repositório vazio para o git.
+git add . -- Adiciona vários arquivos novos ou alterados no diretório criado ou inicializado no git.
+git add nome_do_arquivo.txt -- Adiciona apenas um arquivo ao diretório criado ou inicializado no git.
+git commit -m -- Grava as alterações no diretório git, a opção -m grava uma mensagemn o commit.
+git branch -M main -- Renomeia a branch atual para main, a opção -M serve para mover/renomear à força.
+ssh-keygen -t ed25519 -C "meu_email@example.com" -- No terminal, criar uma chave SSH na pasta c:\usuário\.ssh, 
+-- no arquivo de extensão .pub irá conter a chave pública, copiar chave para o github no endereço: https://github.com/settings/ssh/new
+-- e adicionar a nova chave lá colocando um título.
+git remote add origin git@github.com:RenatoNato/numero-secreto.git -- Cria um vinculo entre o repositório local e remoto.
+git push -u origin main --  Este comando é utilizado para enviar as alterações locais para um repositório remoto,
+--No nosso caso é usado para enviar alterações do ramo local chamado main, para o repositório remoto associado ao alias origin.
